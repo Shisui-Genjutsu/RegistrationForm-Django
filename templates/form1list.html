@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form1 List</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>Id</td>
+            <td>First Name</td>
+            <td>Last Name</td>
+            <td>Email</td>
+            <td>Place</td>
+            <td>Purpose</td>
+            <td>Action</td>
+        </tr>
+        {% for i in tm %}
+        <tr>
+            <td>{{i.id}}</td>
+            <td>{{i.fname}}</td>
+            <td>{{i.lname}}</td>
+            <td>{{i.email}}</td>
+            <td>{{i.place}}</td>
+            <td>{{i.purpose}}</td>
+            <td>
+                <a href="{% url 'formedit' i.id %}" type="button" class="btn btn-sm btn-primary w-100">Edit</a>
+                <a href="{% url 'formdelete' i.id %}" type="button" class="btn btn-sm btn-primary w-100">Delete</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

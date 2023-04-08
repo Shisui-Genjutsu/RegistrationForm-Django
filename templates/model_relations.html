@@ -1,0 +1,17 @@
+{%extends 'template1.html'%} {%load static%} {%block title%}
+<title>Model Relations</title>{%endblock title%} {%block csslink%}<link
+  rel="stylesheet"
+  href="{%static 'basic.css'%}"
+/>
+{%endblock csslink%} 
+{%block content%}
+<h1 class="m-3 rounded-2 shadow">Table Relations</h1>
+<div>
+  {%for i in model1%}
+    <p>{{i.user_name}}</p>
+  {%endfor%}
+</div>
+{%endblock content%} 
+{%block footer1%} 
+{%include 'footer1.html' with services="jai vinayaka" adress="jai muruga"%} 
+{%endblock footer1%}
