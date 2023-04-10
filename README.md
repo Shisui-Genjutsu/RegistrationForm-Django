@@ -5,12 +5,6 @@
 <a href="[LICENSE](https://github.com/Shisui-Genjutsu/RegistrationForm-Django)"><img src="https://img.shields.io/github/directory-file-count/Shisui-Genjutsu/RegistrationForm-Django" alt="MIT LicenSe"></a>
 </p>
 
-<h3>#Demo Work Screenshots:</h3>
-<p align="center">
-<img width="330" src="https://user-images.githubusercontent.com/112178680/230625713-969b0e34-feac-4352-a0bc-b62efd27e8d1.png" alt="MIT LicenSe">
-<img width="330" src="https://user-images.githubusercontent.com/112178680/230625723-cb62ee16-4072-4225-a877-6407ce821e32.png" alt="MIT LicenSe">
-<img width="330" src="https://user-images.githubusercontent.com/112178680/230625741-558cf5e3-44f9-4549-ac7b-3c69cad67bcd.png" alt="MIT LicenSe">
-</p>
 
 <p>
 RegistrationForm using Django, HTML, CSS, Bootstap, Javascript and MySQL.
@@ -23,20 +17,9 @@ database is written in MySQL database.
 <li>First install latest version of Python 3x</li>
   #create virtual Environments to run in different environments
   <li>Execute `py -m venv {{environment name}}`</li>
-
-
-<h3>#Installations for frontend:</h3>
-<ul>
-  <li>First install `Node JS`</li>
-  <li>Install create-react-app `npm i create-react-app`</li>
-  <li>Execute `npx create-react-app frontend`</li>
-  <li>Execute `npm i framer-motion`</li>
-  <li>Execute `npm i react-router-dom`</li>
-  <li>Execute `npm install @mui/material @emotion/react @emotion/styled`</li>
-  <li>Execute `npm install @mui/icons-material`</li>
-</ul>
-
-<h3>#Installations for backend:</h3>
-<li>First Install latest Python</li>
-<li>Execute `pip install -r requirements.txt`</li>
-
+  <li>Execute `pip install django decouple`</li>
+  <li>For Bootstrap cdn link is attached to html file</li>
+  
+<br/>
+###Thankyou for visiting my github###<br/>
+@BhaskarGuthula
