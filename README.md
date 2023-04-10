@@ -13,11 +13,10 @@
 </p>
 
 <p>
-School Web Application using React JS, FastAPI and MySQL with JWT authentication and microservice architecture.
-This application has 4 microserices 3 backend microservices(student, teacher, admin) and 1 ui microservice(frontend)
-all microservices has its own database MySQL 
-backend is written in FastAPI python framework for building RestAPI
-frontend is written in ReactJs it is component based javascript library
+RegistrationForm using Django, HTML, CSS, Bootstap, Javascript and MySQL.
+backend is written in Django python framework
+frontend is written in HTML, CSS, Bootstrap and  javascript
+database is written in MySQL database.
 </p>
 
 <h3>#root Installations:</h3>
